@@ -1,0 +1,51 @@
+
+.cursorSquare{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #575757fd;
+    /* background-image: url("./media/cursor.svg"); */
+    opacity:100%;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    z-index: 99999;
+ 
+    transition: transform 0.1s ease-in;
+}
+
+.cursorImg{
+    transform: rotate(160deg);
+    pointer-events: none;
+
+    animation-name: none;
+    animation-duration: 0s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+/* 
+ .cursorBig{
+    pointer-events: none;
+    width: 25px;
+    height: 25px;
+    animation-fill-mode: forwards;
+    animation: cursor 0.2s ease-in-out 0s infinite alternate;
+}
+
+@keyframes cursor {
+    0%   {transform: rotate(160deg);}
+    100% {transform: rotate(200deg);}
+  }  */
+
+  #matterCanvas{
+    position:fixed;
+    top:0;
+    z-index: 999;
+    pointer-events: none;
+    width:100vw;
+    height: 100vh;
+}

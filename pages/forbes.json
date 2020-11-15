@@ -1,0 +1,30 @@
+{
+    "projects": [
+
+        {
+            "type": "header",
+            "title": "Forbes - UX Design Intern",
+            "date": "Summer 2019",
+            "description": "As a UX Design intern at Forbes, I worked on Forbes' content management system, Bertie. I created designs and mocks for a several functions including creating alternate media tags, navigating the menu, creating anchor links, and article minimaps. On the side, I also created and maintained a sketch library to house the Bertie design system."
+        },
+
+        {
+            "type": "h1",
+            "text": "Redesigning The Nav",
+            "size": "pageblock--fullpage",
+            "column": "pageblock--middle",
+            "row": "3"
+        },
+
+        {
+            "type": "h1",
+            "text": "Redesigning The Nav",
+            "size": "pageblock--full",
+            "column": "pageblock--left",
+            "row": "3"
+        }
+
+       
+
+    ]
+}

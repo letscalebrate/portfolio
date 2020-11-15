@@ -1,0 +1,51 @@
+.loadScreen{
+    width:100vw;
+    height:100vh;
+    position: fixed;
+    pointer-events: none;
+    top: 0px;
+    left: 0px;
+    z-index: 999999;
+    background-color: white;
+    opacity: 100;
+    animation: loadScreen 1.5s ease-out;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadAnimation{
+    width: 4vw;
+    height: 4vw;
+    opacity:100;
+    /* background-color: lightgoldenrodyellow; */
+    animation: fadeIn 0.5s ease-in-out;
+    /* animation-direction: normal;
+    animation-fill-mode: forwards; */
+}
+
+@keyframes loadScreen{
+    0%{
+        opacity:100;
+    }
+
+    50%{
+        opacity:100;
+    }
+
+    100%{
+        opacity:0;
+    }
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:100;
+    }
+}
+
