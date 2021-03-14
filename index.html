@@ -4,61 +4,47 @@
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>letscalebrate</title>
-    <link rel="icon" 
-      type="image/png" 
-      href="./media/cnlogo.svg">
     
-    <link rel="stylesheet" href="styles/load.css" type="text/css">
-    <link rel="stylesheet" href="styles/nav.css" type="text/css">
-    <link rel="stylesheet" href="styles/cursor.css" type="text/css">
-    <link rel="stylesheet" href="styles/home-styles.css" type="text/css">
-    <link rel="stylesheet" href="styles/fonts.css" type="text/css">
-
-
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-    <script src="./matter/matter-js-0.14.2/build/matter.js" type="text/javascript"></script>
-    <script src="./js/p5.js" type="text/javascript"></script>
-    <script src="./js/lottie.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.3/lottie.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
-
-    <script src="./js/home-cms.js" type="text/javascript"></script>
-    <script src="./js/cursor.js" type="text/javascript"></script>
-    
-    <script src="./js/box.js" type="text/javascript"></script>
-    <script src="./js/confetti.js" type="text/javascript"></script>
-
+    <link rel="stylesheet" href="fonts/fonts.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
   </head>
-
   <body>
-  <div class="loadScreen">
-    <div class="loadAnimation" data-file="cnlogo"></div>
-  </div>
-  <div id="matterCanvas"></div>
-  <div class="container" >
-    <div class="nav">
-        <a id="logo" href="index.html">
-          <div class="lottie" data-file="cnlogo"></div>
-          <!-- <img src="/media/cnlogo.svg"> -->
-        <h1 id="logo--title" class="hover">letscalebrate</h1>
-        </a>
-        <div class="nav__linkholder">
-          <a class="nav__link hover" href="./pages/aboutme.html">about me</a>
-          <a class="nav__link hover" href="">contact</a>
+    <nav><div class="nav__wrapper"><p id="nav__logo-text">letscalebrate</p> 
+        <ul id="nav__linkholder">
+            <li class="navlink"><a href="index.html">home</a></li>
+            <li class="navlink"><a href="index.html">art</a></li>
+            <li class="navlink"><a href="index.html">about</a></li>
+        </ul>
+        </div>
+    </nav>
+    <div class="container" data-aos="zoom-in">
+        <div class="hero-container">
+        <h1 id="hero-container__callout">Just a Dude, Designer <br>& Digital Artist</h1>
+        <button id="hero-container__button">instagram/letscalebrate</button>
         </div>
     </div>
+
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div id="ig-feed" data-aos="flip-down" class="elfsight-app-2fc76576-0e2f-40d9-8f83-1c971694aa4a"></div>
+
+<div class="testdiv" data-aos="zoom-in"></div>
+<div class="testdiv" data-aos="zoom-in"></div>
+<div class="testdiv" data-aos="zoom-in"></div>
+<div class="testdiv" data-aos="zoom-in"></div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  <!-- <script src="../.js" type="text/javascript"></script> -->
+  <!-- <script>
+        $(document).ready(function () { $('body').hide().fadeIn(1500).delay(6000)});
+    </script> -->
     
-    <div class="workgrid">
-    </div>
-    
-  </div>
-  <div class="cursorSquare">
-    <!-- <img class="cursorImg" src="media/cursor.svg"> -->
-  </div>
-  <script src="./js/load.js" type="text/javascript"></script>
-  <script src="./js/logo.js" type="text/javascript"></script>
-  </body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    duration: 1200,
+    }) 
+  </script>
+</body>
 </html>
