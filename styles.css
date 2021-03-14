@@ -145,6 +145,13 @@ nav{
 h1{
     font-family: silkablack;
     font-size:4rem;
+    color: var(--darkgreen);
+}
+
+h2{
+    font-family: silkabold;
+    font-size:3rem;
+    color: var(--darkgreen);
 }
 
 button{
@@ -187,4 +194,48 @@ button:hover{
     width:500px;
     height:200px;
     background-color: darkgreen;
+}
+
+/* matter canvas stuff */
+#matterCanvas{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 99999;
+    pointer-events: none;
+    width:100vw;
+    height: 100vh;
+}
+
+.section{
+    width:100vw;
+    min-height:40vh;
+}
+
+#section--daily-count{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkgreen);
+}
+
+#daily-count-leadin{
+    color: var(--brown);    
+}
+
+#daily-count{
+    margin-top:32px;
+    font-size:10rem;
+    font-family: silkabold;
+    color: var(--brown);
+}
+
+/*media queries */
+
+@media screen and (max-width: 480px) {
+    #nav__logo-text{
+        letter-spacing: 0.1px;
+        font-size:1.2rem;
+    }
 }
