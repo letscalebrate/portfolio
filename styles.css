@@ -154,6 +154,19 @@ h2{
     color: var(--darkgreen);
 }
 
+h3{
+    font-family: silkamedium;
+    font-size:1.5rem;
+    color: var(--darkgreen);
+    line-height: 1.8rem;
+}
+
+p{
+    font-family: silkaregular;
+    font-size:1.5rem;
+    color: var(--darkgreen);
+}
+
 button{
     background-color: rgba(0,0,0,0);
     border: solid;
@@ -210,6 +223,22 @@ button:hover{
 .section{
     width:100vw;
     min-height:40vh;
+    margin-top:32px;
+}
+
+.section__left{
+padding:3vw;
+}
+
+.section__right{
+padding:3vw;
+}
+
+#section--daily-intro{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
 }
 
 #section--daily-count{
@@ -218,6 +247,26 @@ button:hover{
     justify-content: center;
     align-items: center;
     background-color: var(--darkgreen);
+}
+
+#section--responses{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#responses__title{
+    margin-top: 64px;
+}
+
+#daily-intro__header{
+    text-align: center;
+    max-width: 700px;
+}
+
+#daily-intro__desc{
+    max-width: 500px;
 }
 
 #daily-count-leadin{
@@ -231,11 +280,70 @@ button:hover{
     color: var(--brown);
 }
 
+#response-img{
+    width:100%;
+    height:auto;
+}
+
+footer{
+    margin-top:64px;
+    width:100vw;
+    min-height:180px;
+    background-color: var(--darkgreen);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__text{
+    color: var(--white);
+    font-size: 1rem;
+}
+
+#footer__copyright{
+    max-width: 300px;
+    text-align: center;
+    margin-top:16px;
+}
+
+#footer__social-media-container{
+    margin-top:32px;
+}
+
+.footer__social-media--logo{
+width:48px;
+height:48px;
+}
+
 /*media queries */
 
 @media screen and (max-width: 480px) {
     #nav__logo-text{
         letter-spacing: 0.1px;
         font-size:1.2rem;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1.3rem;
+    }
+
+    #section--daily-intro{
+        flex-direction:column;
+    }
+
+    #daily-intro__desc{
+        margin-top: 48px;
+    }
+
+    #daily-count{
+        font-size:6rem;
     }
 }
