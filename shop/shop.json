@@ -1,0 +1,13 @@
+{
+    "projects": [
+        {
+            "size": "pageblock--square",
+            "position": "pageblock--left",
+            "picture": "media/reel__cover--square.png",
+            "title": "Motion Reel",
+            "caption": "the best of my motion work",
+            "url": "./pages/reel.html",
+            "color" : "black"
+        }
+    ]
+}

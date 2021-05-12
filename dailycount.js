@@ -21,7 +21,7 @@ var x = setInterval(function() {
 //   document.getElementById("daily-count").innerHTML = days + "d " + hours + "h "
 //   + minutes + "m " + seconds + "s ";
 
-  document.getElementById("daily-count").innerHTML = (days*-1)+2 + "days";
+  document.getElementById("daily-count").innerHTML = (days*-1)-1 + "days";
 //   document.getElementById("hero-daily-count").innerHTML = (days*-1)+2 + " days of digital art.";
 
   // If the count down is finished, write some text
